@@ -1,0 +1,153 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: rgb(165, 164, 164);
+}
+#container{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 93%;
+    height: 580px;
+    margin:70px 60px;
+    padding: -16px -7px;
+    border: 2px solid white;
+    flex-direction: column;
+    border-radius: 30px;
+}
+#image{
+    display: flex;
+    width: 30%;
+    height: 555px;
+    flex-direction: row;
+    float: right;
+    margin: -640px 57px;
+    padding: 11px -1px;
+    border: 0px solid black;
+    border-radius: 30px;
+}
+#heading{
+    font-size: 40px;
+    float: left;
+    margin: -252px -319px;
+    padding: 54px 7px;
+    width: 0%;
+    font-weight: bold;
+    font-family: "Fredoka", sans-serif;
+}
+#paragraph {
+    font-size: 25px;
+    margin: -483px 118px;
+    padding: -17px 2px;
+    float: left;
+    text-align: left;
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    opacity: 0.8;
+    font-family: "Lato", sans-serif;
+}
+
+#Box1{
+    margin: -426px 13px;
+    padding: 7px 7px;
+    width: 62vw;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+    font-family: "Montserrat", sans-serif;
+}
+#username{
+    height: 35px;
+    width: 413px;
+    font-size: 14px;
+    padding: 3px 1px;
+    margin: 15px -39px;
+    border-radius: 10px;
+    display: flex;
+}
+#B:hover{
+    color: rgb(78, 76, 76);
+}
+#Box2{
+    margin: -374px 314px;
+    padding: 350px 7px;
+    width: 62vw;
+    height: 82px;
+    font-family: "Montserrat", sans-serif;
+    justify-content: center;
+    align-items: center;
+    font-size: 130px;
+}
+#password{
+    height: 35px;
+    width: 413px;
+    font-size: 14px;
+    padding: 3px 1px;
+    margin: 15px -39px;
+    border-radius: 10px;
+}
+#checkbox{
+    width: 144px;
+    height: 100px;
+    /* display: flex; */
+    margin: 74px 278px;
+    padding: 16px 5px;
+    font-size: 15px;
+    position: relative;
+    accent-color: darkorchid;
+    font-family: "Nunito", sans-serif;
+}
+#checkbox:hover{
+    color: rgb(78, 76, 76);
+}
+#para1{
+    margin: -246px 328px;
+    padding: 56px 241px;
+    width: 135px;
+    height: 100px; 
+    cursor: pointer;
+    font-family: "Nunito", sans-serif;
+}
+#para1:hover{
+    color: rgb(78, 76, 76);
+}
+#button{
+   background-color: darkorchid;
+   color: white;
+   margin: 156px 285px;
+   padding: 14px 22px;
+   width: 100px;
+   height: 46px;
+   border-radius: 10px;
+   font-size: 15px;
+   position: relative;
+   display: flex;
+   font-family: "PT Sans", sans-serif;
+}
+#para2{
+    margin: -83px 58px;
+    padding: 20px 230px;
+    font-family: "PT Sans", sans-serif;
+}
+#button:hover{
+    background-color: rgb(184, 87, 233);
+    color: white;
+    cursor: pointer;
+}
+#para3{
+    margin: -131px 228px;
+    padding: 92px 230px;
+    color: darkorchid;
+    font-family: "PT Sans", sans-serif;
+}
+#para3:hover{
+    color: rgb(202, 124, 241);
+    cursor: pointer;
+}
